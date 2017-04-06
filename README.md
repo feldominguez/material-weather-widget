@@ -1,3 +1,4 @@
+## Material Weather Widget
 Responsive Weather Widget created with the Aeris API. API response tends to be slow. This is a project inspired by the FCC sample project.
 
 * HTML
