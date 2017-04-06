@@ -5,5 +5,6 @@ Responsive Weather Widget created with the Aeris API. API response tends to be s
 * Javascript
 * JQuery
 * AJAX
+* Aeris API
 
  A Pen created at CodePen.io. You can find this one at http://codepen.io/philgetz/pen/kXxxPb.
