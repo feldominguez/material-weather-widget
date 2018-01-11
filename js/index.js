@@ -6,8 +6,8 @@
 getPosition();
 
 function findCityWeather(lat, lng) {
-    var clientID = '3GyIJFDKSCtUjPo56bJzZ';
-    var clientSec = 'rKAGPOOj6qd4c8bFOtaJPvYxLk2wYqrQoG8zgDHH';
+    var clientID = 'RVOHazZHTR2oXOKXl46cF';
+    var clientSec = 'iOUgwnACeghVFqgnJISoTpHK9XI65o31oddSgXtt';
 
     $.ajax({
         url: 'https://api.aerisapi.com/batch/?p=' + lat + ',' + lng + '&requests=observations%3Ffields=ob.icon,ob.precipIN,ob.humidity,ob.windMPH,ob.windKPH,ob.weatherShort,ob.tempF,ob.tempC,/places%3Ffields=place.name,place.state&client_id=' + clientID + '&client_secret=' + clientSec,
